@@ -2,6 +2,13 @@ import Header from '../Headers/Header';
 import UserCard from '../UserCard/UserCard';
 import { SafeAreaView, ScrollView, StyleSheet, View } from 'react-native';
 import iphone from '../../src/img/iphone_photo.png'
+import Nothing from '../../src/img/Nothing.png'
+import Lava from '../../src/img/Lava.png'
+import AsusLaptop from '../../src/img/AsusLaptop.png'
+import MiLaptop from '../../src/img/miLaptop.png'
+import Poco from '../../src/img/Poco.png'
+import samsung from '../../src/img/samsung.png'
+// import Dell from '../../src/img/'
 
 const Product = () => {
     const productsData = [
@@ -13,43 +20,56 @@ const Product = () => {
         },
         {   
             id: 2,
-            image:iphone,
+            image:samsung,
             name:'Samsung Star Mobile',
             price: '110,000'
         },
         {   
             id: 3,
-            image:iphone,
+            image:Lava,
             name:'Lava Mobile',
             price: '1,30,000'
         },
         {   
             id: 4,
-            image:iphone,
+            image:Poco,
             name:'Poco Mobile',
             price: '20,000'
         },
         {   
             id: 5,
-            image:iphone,
+            image:Nothing,
             name:'Nothing Mobile',
             price: '60,000'
         },
-        {   
-            id: 6,
-            image:iphone,
-            name:'laptop Dell',
-            price: '1,25,000'
-        },
+        
         {   
             id: 7,
-            image:iphone,
+            image:AsusLaptop,
             name:'ASUS Laptop',
             price: '2,60,000'
         },
         {   
             id: 8  ,
-            image:iphone,
+            image:MiLaptop,
+            name:'Mi Laptop',
+            price: '20,000'
+        },
+        {   
+            id: 9  ,
+            image:MiLaptop,
+            name:'Mi Laptop',
+            price: '20,000'
+        },
+        {   
+            id: 10  ,
+            image:MiLaptop,
+            name:'Mi Laptop',
+            price: '20,000'
+        },
+        {   
+            id: 11  ,
+            image:MiLaptop,
             name:'Mi Laptop',
             price: '20,000'
         },

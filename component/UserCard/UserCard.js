@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
         borderWidth:0.3
     },
     imageView:{
-        // backgroundColor:'black',
+        // backgroundColor:'red',
         width:'100%',
         height:'76%',
         display:'flex',
@@ -96,15 +96,17 @@ const styles = StyleSheet.create({
         alignItems:'center'
     },
     handelImage:{
-        width:'50%',
-        height:'100%',
+        // backgroundColor:'blue',
+        width:'90%',
+        height:'85%',
         display:'flex',
         justifyContent:'center',
-        alignItems:'center'
+        alignItems:'center',
     },
     img:{
-        width:'97%',
-        height:'97%'
+        width:'100%',
+        height:'100%',
+        resizeMode:'contain'
     },
     detail:{
         // backgroundColor:'green',
