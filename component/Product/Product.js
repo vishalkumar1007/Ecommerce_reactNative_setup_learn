@@ -44,10 +44,16 @@ const Product = () => {
         },
         
         {   
-            id: 7,
+            id: 6,
             image:AsusLaptop,
             name:'ASUS Laptop',
             price: '2,60,000'
+        },
+        {   
+            id: 7  ,
+            image:MiLaptop,
+            name:'Mi Laptop',
+            price: '20,000'
         },
         {   
             id: 8  ,
@@ -63,12 +69,6 @@ const Product = () => {
         },
         {   
             id: 10  ,
-            image:MiLaptop,
-            name:'Mi Laptop',
-            price: '20,000'
-        },
-        {   
-            id: 11  ,
             image:MiLaptop,
             name:'Mi Laptop',
             price: '20,000'
