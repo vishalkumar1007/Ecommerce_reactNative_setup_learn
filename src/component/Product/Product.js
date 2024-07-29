@@ -1,13 +1,13 @@
 import Header from '../Headers/Header';
 import UserCard from '../UserCard/UserCard';
 import { SafeAreaView, ScrollView, StyleSheet, View } from 'react-native';
-import iphone from '../../src/img/iphone_photo.png'
-import Nothing from '../../src/img/Nothing.png'
-import Lava from '../../src/img/Lava.png'
-import AsusLaptop from '../../src/img/AsusLaptop.png'
-import MiLaptop from '../../src/img/miLaptop.png'
-import Poco from '../../src/img/Poco.png'
-import samsung from '../../src/img/samsung.png'
+import iphone from '../../img/iphone_photo.png'
+import Nothing from '../../img/Nothing.png'
+import Lava from '../../img/Lava.png'
+import AsusLaptop from '../../img/AsusLaptop.png'
+import MiLaptop from '../../img/miLaptop.png'
+import Poco from '../../img/Poco.png'
+import samsung from '../../img/samsung.png'
 // import Dell from '../../src/img/'
 
 const Product = () => {

@@ -7,7 +7,7 @@
 
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
-import Product from './component/Product/Product';
+import Product from './src/component/Product/Product';
 
 function App(): React.JSX.Element {
   return (

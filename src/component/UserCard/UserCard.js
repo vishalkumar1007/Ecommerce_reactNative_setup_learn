@@ -1,6 +1,6 @@
 
 import { View , Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
-import { addToCard , removeFromCard } from '../redux/action';
+import { addToCard , removeFromCard } from '../../redux/action';
 import {useDispatch} from 'react-redux';
 import {useSelector} from 'react-redux';
 import { useEffect, useState } from 'react';
